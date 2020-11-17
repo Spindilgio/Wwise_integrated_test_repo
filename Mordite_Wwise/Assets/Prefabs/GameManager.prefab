@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2739764292240129610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7186562660658158911}
+  - component: {fileID: 8852405020400769417}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7186562660658158911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739764292240129610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.603484, y: -0.43103278, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8852405020400769417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739764292240129610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbbb3411d4bb91439cbb1eed13040a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathstoneSpeed: 0.5
+  inputSprites:
+  - {fileID: 21300000, guid: 08180853603c84842ac89c8af7f405fe, type: 3}
+  - {fileID: 21300000, guid: 58c12898df5fbe34ea16c670b3f389b1, type: 3}
+  - {fileID: 21300000, guid: 53ee13b5fcfa518428f45cfacd6825fa, type: 3}
+  - {fileID: 21300000, guid: 7b248b0f062dd7340a641ec0cea22437, type: 3}
+  - {fileID: 21300000, guid: 929d62fe3c95b2f4199f57ed13550109, type: 3}
+  - {fileID: 21300000, guid: 4a42628051b66a741ac948d6b17df160, type: 3}
+  - {fileID: 21300000, guid: e231de70ef07aeb4386a3f2a052b418f, type: 3}
+  - {fileID: 21300000, guid: 6db958d5da8db4c44a7e4c89d23c58be, type: 3}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  deathStone: {fileID: 0}
+  possible_keys: 7700000061000000730000006400000011010000140100001201000013010000
